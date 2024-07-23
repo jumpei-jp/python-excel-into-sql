@@ -11,8 +11,8 @@ table_name = 'sample_table_01'
 # INSERT文を格納するリスト
 insert_statements = []
 
-# 列名を適当に設定する（ヘッダーがないため）
-columns = [f'col{i+1}' for i in range(len(df.columns))]
+# カラム名を指定
+columns = ['No', 'Name', 'school', 'student_id', 'birthday', 'address']
 
 # INSERT文を作成
 for index, row in df.iterrows():
