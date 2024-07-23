@@ -27,7 +27,7 @@ for index, row in df.iterrows():
 
 # ファイルに出力
 output_directory = '../output'
-output_file_name = 'insert_sample.sql'
+output_file_name = 'insert_sample_01.sql'
 output_file = os.path.join(output_directory, output_file_name)
 
 # ディレクトリが存在しない場合は作成
