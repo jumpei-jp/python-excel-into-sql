@@ -8,3 +8,5 @@ services:
     tty: true
     volumes:
       - ./opt:/root/opt
+      - ./excel:/root/excel
+      - ./output:/root/output
